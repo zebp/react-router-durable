@@ -1,7 +1,11 @@
 {
   "name": "react-router-durable",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "A package for using Cloudflare Durable Objects as React Router loaders and actions ",
+  "author": "Zeb Piasecki <zeb@zebulon.dev>",
+  "repository": "https://github.com/zebp/react-router-durable",
+  "license": "MIT",
+  "keywords": ["cloudflare", "workers", "durable-objects", "react-router"],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,9 +23,6 @@
     "check:format": "biome format",
     "test": "vitest run"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@cloudflare/vitest-pool-workers": "^0.5.40",
